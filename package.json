@@ -8,11 +8,22 @@
     "start": "node index.js",
     "start:dev": "nodemon index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloEstrellaP/flutter-socket.io-server.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloEstrellaP/flutter-socket.io-server/issues"
+  },
+  "homepage": "https://github.com/PabloEstrellaP/flutter-socket.io-server#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "socket.io": "^3.0.4"
+    "i": "^0.3.6",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.2"
   }
 }
